@@ -1,0 +1,154 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* ScratchPlugin */;
+		codeSenseManager = 94AC5309111282E900F3D644 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					660,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 286447089;
+			PBXWorkspaceStateSaveDate = 286447089;
+		};
+		perUserProjectItems = {
+			94EAD49A1112D6E80098AA02 /* PBXTextBookmark */ = 94EAD49A1112D6E80098AA02 /* PBXTextBookmark */;
+			94EAD49C1112D6E80098AA02 /* PBXTextBookmark */ = 94EAD49C1112D6E80098AA02 /* PBXTextBookmark */;
+			94EAD49D1112D6E80098AA02 /* PBXTextBookmark */ = 94EAD49D1112D6E80098AA02 /* PBXTextBookmark */;
+			94EAD49E1112D6E80098AA02 /* PBXTextBookmark */ = 94EAD49E1112D6E80098AA02 /* PBXTextBookmark */;
+			94EAD49F1112D6E80098AA02 /* PBXTextBookmark */ = 94EAD49F1112D6E80098AA02 /* PBXTextBookmark */;
+			94EAD4A01112D6E80098AA02 /* PBXTextBookmark */ = 94EAD4A01112D6E80098AA02 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 94AC5308111282E900F3D644 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32BAE0B30371A71500C91783 /* ScratchPlugin_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 485}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 134}";
+		};
+	};
+	364B9CE30E2B60B700AB357B /* osxScratchOps.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 663}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1171}";
+			sepNavWindowFrame = "{{15, 35}, {1163, 988}}";
+		};
+	};
+	364B9CE50E2B60B700AB357B /* ScratchPlugin.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2070, 23660}}";
+			sepNavSelRange = "{1555, 23}";
+			sepNavVisRange = "{538, 1524}";
+		};
+	};
+	36C9BD70106AACB100C5999A /* osxSerialPort2Ops.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 4953}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2969, 913}";
+		};
+	};
+	8D01CCC60486CAD60068D4B7 /* ScratchPlugin */ = {
+		activeExec = 0;
+	};
+	94AC5308111282E900F3D644 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	94AC5309111282E900F3D644 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	94EAD49A1112D6E80098AA02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 94EAD49B1112D6E80098AA02 /* scratchOps.h */;
+		name = "scratchOps.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 907;
+		vrLoc = 0;
+	};
+	94EAD49B1112D6E80098AA02 /* scratchOps.h */ = {
+		isa = PBXFileReference;
+		name = scratchOps.h;
+		path = "/Users/johnmci/Shared/Scratch/ScratchPluginSrc1.4/ScratchPlugin/ScratchPlugin-osx/scratchOps.h";
+		sourceTree = "<absolute>";
+	};
+	94EAD49C1112D6E80098AA02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32BAE0B30371A71500C91783 /* ScratchPlugin_Prefix.pch */;
+		name = "ScratchPlugin_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 134;
+		vrLoc = 0;
+	};
+	94EAD49D1112D6E80098AA02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36C9BD70106AACB100C5999A /* osxSerialPort2Ops.c */;
+		name = "osxSerialPort2Ops.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 913;
+		vrLoc = 2969;
+	};
+	94EAD49E1112D6E80098AA02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364B9CE30E2B60B700AB357B /* osxScratchOps.c */;
+		name = "osxScratchOps.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1171;
+		vrLoc = 0;
+	};
+	94EAD49F1112D6E80098AA02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364B9CE50E2B60B700AB357B /* ScratchPlugin.c */;
+		rLen = 23;
+		rLoc = 1555;
+		rType = 0;
+	};
+	94EAD4A01112D6E80098AA02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364B9CE50E2B60B700AB357B /* ScratchPlugin.c */;
+		name = "ScratchPlugin.c: 46";
+		rLen = 23;
+		rLoc = 1555;
+		rType = 0;
+		vrLen = 1524;
+		vrLoc = 538;
+	};
+}

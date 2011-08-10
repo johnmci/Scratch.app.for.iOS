@@ -1,0 +1,42 @@
+/* 
+   Localizable.strings
+   SqueakPureObjc
+
+   Created by John M McIntosh on 09-11-24.
+   Copyright 2009 Corporate Smalltalk Consulting Ltd. All rights reserved.
+
+   Translated in Japanese by Kazuhiro Abe on 10-4-7.
+ */
+
+"SqueakSelectImagePanePrompt" = "開くSqueakのイメージファイルを選択してください";
+"Ok" = "Ok";
+"Yes" = "はい";
+"No" = "いいえ";
+"Cancel" = "キャンセル";
+"Cough" = "* コンコン *";
+"Massive" = "大きな毛玉によるクラッシュ";
+"Reset" = "リセット";
+"Wait" = "待つ";
+"Email" = "メール";
+"Kilogram" = "10kgのネコは大きすぎます!!!";
+"Saved" = "保存しました";
+"SavedMsg" = "メッセージは保存されました。";
+"Failed" = "失敗しました";
+"FailedMsg" = "送信は失敗しました。メッセージは送信されていません。";
+"helpEmailAddress" = "aValidEMailAddressForSupportWouldGoHere";
+"helpSubject" = "Scratchが毛玉を吐きました";
+"helpMessage" = "おっと、何かが起こりました。プログラマがそれを見て直せるように情報を送ってもらえますか";
+"herding" = "たくさんのネコが頑張って働いています。お待ちください...";
+"Ahem" = "* ゴホン *";
+"AhemMsg" = "うーん、ネコたちが道を見つけるのに時間がかかっています。みんなが整列するのを「待つ」か「リセット」で記憶を無くしてもう一度やり直すかを選んでください";
+"defaultProjectName" = "iPhoneGardenSecret";
+"Restriction" = "<html><center><font size=+5 color='red'>機能制限がインターネットへのアクセスを許可していません。インターネットにアクセスするには一般設定の機能制限からSafariのアクセスを許可しなければなりません</font></center></html>";
+"checking" = "* チェック中 *";
+"checkingMsg" = "引き続きこのScratchビューワーを使うにはScratchのアカウントが必要です。また、ScratchのWebサイトへアクセスするためにインターネットへ接続しなければなりません。アカウント作成を選ぶと、このアプリケーションを終了してSafariを起動します。";
+"play" = "開始";
+"create" = "作成";
+"Login" = "ログイン";
+"NoInternet" = "インターネット無し";
+"NoInternetMsg" = "おっと! ScratchのWebサイトに接続できません。インターネットへの接続を確認してください。機内モードがオンになっていませんか? 携帯電話やWi-Fiの接続に問題はありませんか? とりあえず最後に開いた作品を表示します";
+"About" = "Based on Scratch from the MIT Media Lab, Version 1.4";
+"InternetFailure" = "インターネット接続に問題があるようです。";

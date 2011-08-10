@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>Scratch</string>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Keyboard</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Key</key>
+			<string>spaceRepeats_preference</string>
+			<key>Title</key>
+			<string>Space key repeats</string>
+			<key>DefaultValue</key>
+			<string>NO</string>
+			<key>TrueValue</key>
+			<string>YES</string>
+			<key>FalseValue</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Memory: 40 to 100 MB</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Title</key>
+			<string>Memory Size</string>
+			<key>Key</key>
+			<string>memorySize_preference</string>
+			<key>DefaultValue</key>
+			<integer>31457280</integer>
+			<key>MinimumValue</key>
+			<integer>20971520</integer>
+			<key>MaximumValue</key>
+			<integer>56623104</integer>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Herding timeout: 30 to 300 secs</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Title</key>
+			<string>Time Out</string>
+			<key>Key</key>
+			<string>timeOut_preference</string>
+			<key>DefaultValue</key>
+			<integer>30</integer>
+			<key>MinimumValue</key>
+			<integer>30</integer>
+			<key>MaximumValue</key>
+			<integer>300</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

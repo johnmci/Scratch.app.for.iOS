@@ -1,0 +1,40 @@
+/* 
+   Localizable.strings
+   SqueakPureObjc
+
+   Created by John M McIntosh on 09-11-24.
+   Copyright 2009 Corporate Smalltalk Consulting Ltd. All rights reserved.
+   Translated by Alan Horchower 03/17/10
+ */
+"SqueakSelectImagePanePrompt" = "Select a Squeak image file to open";
+"Ok" = "Ok";
+"Yes" = "Oui";
+"No" = "No";
+"Cancel" = "Annuler";
+"Cough" = "* Toux *";
+"Massive" = "Crash massif de boule de cheveux";
+"Reset" = "Remonter";
+"Wait" = "Attent";
+"Email" = "Couriel";
+"Kilogram" = "10 Kilogrammes de chat, trop gros!!!";
+"Saved" = "Enregistrée";
+"SavedMsg" = " Le message a été enregistré";
+"Failed" = "Raté";
+"FailedMsg" = "L'envoi a échoué. Le message n'a pas été envoyé";
+"helpEmailAddress" = "aValidEMailAddressForSupportWouldGoHere";
+"helpSubject" = "Scratch toussa une boule de cheveux";
+"helpMessage" = "Attention quelque chose s'est passé et nous aimerions envoyer de l'information aux programmeurs pour voir si nous pouvons le réparer";
+"herding" = "L'élevage de Chats, travaille avec acharnement, attente";
+"Ahem" = "* Ahem *";
+"AhemMsg" = "Ok, cette chats élevage prend bien trop longtemps. Vous pouvez soit attendre pour que nous puissions aligner les bestioles, ou vous pouvez choisir de RESET et nous faire perdre notre esprit et nous allons plus démarrer";
+"defaultProjectName" = "iPhoneGardenSecret";
+"Restriction" = "<html><center><font size=+5 color='red'>Restrictions ne permettent pas l'accès à l'internet, pour accéder à l'internet, vous devez l’autoriser à l'accès Safari dans le Restrictions générales choix Paramètres</font></center></html>";
+"checking" = "* Seulement verification *";
+"checkingMsg" = "Pour utiliser cette visionneuse Scratch vous devez avoir un compte Scratch pour continuer, et vous devez avoir accès à l’internet pour accéder au site Web Scratch. Si vous choisissez de créer un compte, nous fera quitter cette application et commencer à Safari pour en créer un";
+"play" = "Faire jouer";
+"create" = "Créer";
+"Login" = "Entrer";
+"NoInternet" = "Pas d'Internet";
+"NoInternetMsg" = "Dommage! Nous ne pouvons nous connecter au site Web Scratch. S'il vous plaît vérifier votre connexion à Internet. Est le mode Avion? Avez-vous un cellulaire ou un WiFi problème de connexion? Si elle ne fonctionne peut-être Scratch est d'avoir une sieste? Nous verrons si nous pouvons montrer au dernier projet";
+"About" = "Sur la base de toutes pièces à partir du media lab du MIT 1.4 version";
+"InternetFailure" = "Il semble y avoir un problème avec la connexion d’internet. ";

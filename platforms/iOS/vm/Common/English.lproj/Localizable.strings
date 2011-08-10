@@ -1,0 +1,40 @@
+/* 
+   Localizable.strings
+   SqueakPureObjc
+
+   Created by John M McIntosh on 09-11-24.
+   Copyright 2009 Corporate Smalltalk Consulting Ltd. All rights reserved.
+ */
+
+"SqueakSelectImagePanePrompt" = "Select a Squeak image file to open";
+"Ok" = "Ok";
+"Yes" = "Yes";
+"No" = "No";
+"Cancel" = "Cancel";
+"Cough" = "* Cough *";
+"Massive" = "Massive HairBall Crash";
+"Reset" = "Reset";
+"Wait" = "Wait";
+"Email" = "Email";
+"Kilogram" = "10 Kilogram cat, too big!!!";
+"Saved" = "Saved";
+"SavedMsg" = "Message has been saved.";
+"Failed" = "Failed";
+"FailedMsg" = "Sending has failed.  Message has not been sent.";
+"helpEmailAddress" = "aValidEMailAddressForSupportWouldGoHere";
+"helpSubject" = "Scratch coughed a HairBall";
+"helpMessage" = "Oops something happened and we'd like to send some information to the programmers to see if we can fix it";
+"herding" = "Herding cats, working furiously, wait...";
+"Ahem" = "* Ahem *";
+"AhemMsg" = "Ok, this herding cats is taking way too long. You can either WAIT for us to line up the critters, or you can choose to RESET and make us lose our minds and we'll start over";
+"defaultProjectName" = "iPhoneGardenSecret";
+"Restriction" = "<html><center><font size=+5 color='red'>Restrictions do not allow access to the Internet, to access the Internet you must allow Safari access in the Settings General Restrictions option</font></center></html>";
+"checking" = "* Just Checking *";
+"checkingMsg" = "To use this Scratch Viewer you must have an Scratch account to continue, and you must have access to the Internet to access the Scratch WebSite. If you choose to create an account we will exit this application and start Safari to create one.";
+"play" = "Let's Play";
+"create" = "Create";
+"Login" = "Login";
+"NoInternet" = "No Internet";
+"NoInternetMsg" = "Oops! We can't connect to the Scratch WebSite. Please check your connection to the Internet. Is AirPlane mode on? Do you have a celluar or WiFi connection problem? If it is working maybe Scratch is having a catnap? We'll see if we can show the last project";
+"About" = "Based on Scratch from the MIT Media Lab, Version 1.4";
+"InternetFailure" = "There seems to be a problem with the Internet Connection. ";

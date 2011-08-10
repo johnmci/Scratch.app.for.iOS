@@ -1,0 +1,79 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* ScratchPlugin */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* ScratchPlugin */,
+		);
+		codeSenseManager = 364B9CDE0E2B605900AB357B /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 252961501;
+			PBXWorkspaceStateSaveDate = 252961501;
+		};
+		sourceControlManager = 364B9CDD0E2B605900AB357B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	364B9CDD0E2B605900AB357B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	364B9CDE0E2B605900AB357B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	364B9CE30E2B60B700AB357B /* osxScratchOps.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 728}}";
+			sepNavSelRange = "{1474, 0}";
+			sepNavVisRange = "{512, 962}";
+			sepNavWindowFrame = "{{38, 236}, {763, 616}}";
+		};
+	};
+	364B9CE40E2B60B700AB357B /* osxSeriaPort2Ops.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 5040}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1223}";
+			sepNavWindowFrame = "{{107, 70}, {676, 719}}";
+		};
+	};
+	364B9CE50E2B60B700AB357B /* ScratchPlugin.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 22750}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1501}";
+			sepNavWindowFrame = "{{130, 49}, {676, 719}}";
+		};
+	};
+	8D01CCC60486CAD60068D4B7 /* ScratchPlugin */ = {
+		activeExec = 0;
+	};
+}

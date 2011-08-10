@@ -1,0 +1,137 @@
+    //
+//  LoginViewControlleriPad.m
+//  SqueakPureObjc
+//
+//  Created by John M McIntosh on 10-03-02.
+//  Copyright 2010 Corporate Smalltalk Consulting Ltd. All rights reserved.
+//
+
+#import "LoginViewControlleriPad.h"
+#import "ScratchIPhoneAppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
+
+extern ScratchIPhoneAppDelegate *gDelegateApp;
+
+@implementation LoginViewControlleriPad
+@synthesize website;
+@synthesize htmlView,scratchSiteWebView;
+
+- (NSString*) copyrightText {
+	NSString *about = NSLocalizedString(@"About",nil);
+	return about;
+}
+
+- (void)loadView {
+	[super loadView];
+	NSError *err;
+	NSString *htmlString = [NSString stringWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"ScratchLicenseInfo" ofType: @"html"] encoding: NSUTF8StringEncoding error: &err];
+	[self.htmlView setDelegate: self];
+	self.htmlView.scalesPageToFit = NO;
+	[self.htmlView loadHTMLString: htmlString baseURL: [NSURL fileURLWithPath: [[NSBundle mainBundle] resourcePath] isDirectory:YES]];
+	[self.scratchSiteWebView setDelegate: self];
+	self.scratchSiteWebView.scalesPageToFit = NO;
+	[self.scratchSiteWebView loadRequest: [NSURLRequest requestWithURL: [NSURL URLWithString: @"http://info.scratch.mit.edu/Scratch_Store"]]];
+	self.scratchSiteWebView.layer.borderWidth = 1;
+	self.scratchSiteWebView.layer.borderColor = [[UIColor grayColor] CGColor];
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+	if((UIUserInterfaceIdiomPad == UI_USER_INTERFACE_IDIOM())) 
+		[gDelegateApp.viewController setNavigationBarHidden: YES animated: YES];			
+	[super viewWillAppear: animated];	
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Overriden to allow any orientation.
+    return YES;
+}
+
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)targetedOrientation duration:(NSTimeInterval)duration {
+	if( UIUserInterfaceIdiomPad == UI_USER_INTERFACE_IDIOM()) {
+		if (UIInterfaceOrientationIsLandscape(targetedOrientation)){
+			self.scratchSiteWebView.scalesPageToFit = YES;
+		}
+		if (UIInterfaceOrientationIsPortrait(targetedOrientation)) {
+			self.scratchSiteWebView.scalesPageToFit = NO;
+		}
+	}
+}
+			
+- (IBAction) clickWebSite:(id)sender {
+	[[UIApplication sharedApplication] openURL: [NSURL URLWithString: @"http://scratch.mit.edu/signup"]];
+}
+
+-(void)textFieldDidBeginEditing:(UITextField *)textField {
+}
+
+- (void) putTextBackToOriginalPlace {
+}
+
+//This is called on an error, grab all error information, but we only use some of it
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)aError
+{
+	//	NSLog(@"Starting web load didFailLoadWithError");
+	//	NSLog([[[webView request] URL] absoluteString]);
+	//	NSLog(@"flusFaileh");
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible: NO];
+	
+	UIAlertView * dialog = [UIAlertView alloc];
+	NSString * ld = [aError localizedDescription];
+	NSString * lfr = (NSString *)[aError localizedFailureReason];
+	NSArray * lro = [aError localizedRecoveryOptions];
+	NSString * lrs = [aError localizedRecoverySuggestion];
+#pragma unused(ld,lfr,lro,lrs)
+	NSString * okText = NSLocalizedString(@"Ok", nil);
+	dialog = [dialog initWithTitle: [aError localizedDescription] 
+						   message: [aError localizedRecoverySuggestion]  delegate: nil
+				 cancelButtonTitle: okText  otherButtonTitles: nil];
+	[dialog show];
+	[dialog release];
+}
+
+//Check type of URL
+- (BOOL) isURL: (NSURLRequest *) request type: (NSString *) type {
+	NSRange howMuch;
+	howMuch.location=0;
+	howMuch.length= type.length;
+	NSComparisonResult equal = [[[request URL] scheme] compare: type options: NSCaseInsensitiveSearch  range: howMuch];
+	return (equal == NSOrderedSame) ? YES : NO;
+}
+
+//This enables the check to see if Restrictions has Safari turned off, if so no internet
+//We also have to be aware of about: and file: special cases
+//We also have to adjust the view to swap in the status bar
+//We should not have to adjust the webview frame, but we have to, this appears to be a bug in the UIWebView logic
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+	BOOL what = [[UIApplication sharedApplication] canOpenURL: [request URL]];
+	if (what == NO) {
+		
+		NSRange howMuch;
+		howMuch.location=0;
+		howMuch.length=5;
+		
+		if ([self isURL: request type: @"about"]) return YES;
+		if ([self isURL: request type: @"file"]) return YES;
+		return NO;
+	}
+	return YES;
+}
+
+- (void)viewDidUnload {
+	// Release any retained subviews of the main view.
+	[super viewDidUnload];
+	self.htmlView = nil;
+	self.scratchSiteWebView = nil;
+	self.website = nil;
+}
+
+- (void)dealloc {
+	[htmlView release];
+	[scratchSiteWebView release];
+	[website release];
+	[super dealloc];
+}
+
+@end

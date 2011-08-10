@@ -1,0 +1,40 @@
+/* 
+   Localizable.strings
+   SqueakPureObjc
+
+   Created by John M McIntosh on 09-11-24.
+   Copyright 2009 Corporate Smalltalk Consulting Ltd. All rights reserved.
+ */
+
+"SqueakSelectImagePanePrompt" = "Select a Squeak image file to open";
+"Ok" = "Ok";
+"Yes" = "Ja";
+"No" = "Nein";
+"Cancel" = "Abbruch";
+"Cough" = "* Räusper *";
+"Massive" = "Extra haariger Absturz";
+"Reset" = "Reset";
+"Wait" = "Warten";
+"Email" = "Email";
+"Kilogram" = "10 kg Katze, zu dick!!!";
+"Saved" = "Gespeichert";
+"SavedMsg" = "Nachricht wurde gespeichert.";
+"Failed" = "Fehler";
+"FailedMsg" = "Das Schicken/Senden hat nicht funktioniert. Die Nachricht wurde nicht verschickt.";
+"helpEmailAddress" = "aValidEMailAddressForSupportWouldGoHere";
+"helpSubject" = "Scratch hatte Schluckauf";
+"helpMessage" = "Etwas unvorhergesehenes ist passiert und wir würden gerne dem Programmierer Information darüber schicken damit er es vielleicht reparieren kann.";
+"herding" = "Dabei Flöhe zu hüten, arbeite wie verrückt, Sekunde noch...";
+"Ahem" = "* Räusper *";
+"AhemMsg" = "Ok, dieses Flöhe hüten dauert zu lange. Du kannst entweder WARTEN, bis wir damit fertig sind, oder Du kannst alles ZURÜCKSETZEN. Wir vergessen dann allerdings alles und fangen von vorne an";
+"defaultProjectName" = "iPhoneGardenSecret";
+"Restriction" = "<html><center><font size=+5 color='red'>Zugriff auf das Internet ist eingeschränkt. Um den Zugriff zu erlauben musst du in Safari den Zugriff in den Settings General Restrictions option</font></center></html>";
+"checking" = "* Just Checking *";
+"checkingMsg" = "Um den Scratch Viewer zu verwenden, brauchst du einen Scratch Benutzerkonto und du musst auf das Internet zugreifen können. Wenn du ein Scratch-Konto anlegen möchtest, wird diese Anwendung geschlossen und wir werden zu Safari wechseln.";
+"play" = "Lass uns spielen";
+"create" = "Anlegen";
+"Login" = "Login";
+"NoInternet" = "Kein Internet";
+"NoInternetMsg" = "Wir können nicht auf die Scratch Webseite zugreifen. Funktioniert die Verbindung zum Internet? Flugmodus? Probleme mit der WLAN oder Telefonverbindung? H'lt Scratch vielleicht einfach ein Nickerchen? Wir versuchen erst einmal, ob wir das letzte Projekt anzeigen können.";
+"About" = "Basiert auf Scratch vom MIT Media Lab, Version 1.4";
+"InternetFailure" = "Es scheint ein Problem mit der Netzwerkverbindung zu geben";
